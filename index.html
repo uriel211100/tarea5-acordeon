@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="https://kit.fontawesome.com/d188054eba.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="contenido_todo ancho">
+        <article class="contenido_acordeones">
+            <h1 class="titulo1">Frequently Asked Questions</h1>
+            <br>
+
+            <div class="acordeon">
+                <div class="acordeon_titulo">
+                    <i class="fa-solid fa-square-plus"></i>
+                    <h3>Do you provide any scripst with your templates?</h3>
+                </div>
+                <div class="acordeon_contenido">
+                    <p>Our templates do not include any additional scripts. Newsletter subscriptions, search fields, forums, image galleries (in HTML versions of Flash products) are inactive. Basic scripts can be easily added at www.zemez.io If you are not sure that the element you’re interested in is active please contact our Support Chat for clarification.</p>
+                </div>
+            </div>
+
+
+            <div class="acordeon">
+                <div class="acordeon_titulo">
+                    <i class="fa-solid fa-square-plus"></i>
+                    <h3>What do I receive when I order a template?</h3>
+                </div>
+                <div class="acordeon_contenido">
+                    <p>After you complete the payment via our secure form you will receive the instructions for downloading the product. The source files in the download package can vary based on the type of the product you have purchased.</p>
+                </div>
+            </div>
+
+
+            <div class="acordeon">
+                <div class="acordeon_titulo">
+                    <i class="fa-solid fa-square-plus"></i>
+                    <h3>In what formats are your templates available?</h3>
+                </div>
+                <div class="acordeon_contenido">
+                    <p>Website templates are available in Photoshop and HTML formats. Fonts are included with the Photoshop file. In most templates, HTML is compatible with Adobe® Dreamweaver® and Microsoft® FrontPage®..</p>
+                </div>
+            </div>
+
+
+            <div class="acordeon acordeon4">
+                <div class="acordeon_titulo">
+                    <i class="fa-solid fa-square-plus"></i>
+                    <h3>What am I allowed to do with the templates?</h3>
+                </div>
+                <div class="acordeon_contenido">
+                    <p>You may build a website using the template in any way you like. You may not resell or redistribute templates (like we do); claim intellectual or exclusive ownership to any of our products, modified or unmodified. All products are property of content providing companies and individuals.</p>
+                </div>
+            </div>
+
+        </article>
+
+
+
+
+
+        <article class="contenido-skills">
+            <h1 class="titulo1">Skills</h1>
+            <br>
+            <div class="skills-porcentaje">
+                <h3 class="subtitulo1">Branding</h3>
+                <h3 class="subtitulo1">90%</h3>
+            </div>
+            <div class="lineas">
+                <div class="linea-azul">
+                </div>
+                <div class="linea-gris">
+                </div>
+            </div>
+
+            <br>
+
+            <div class="skills-porcentaje">
+                <h3 class="subtitulo1">Web Design</h3>
+                <h3 class="subtitulo1">65%</h3>
+            </div>
+            <div class="lineas">
+                <div class="linea-amarilla">
+                </div>
+                <div class="linea-gris2">
+                </div>
+            </div>
+
+            <br>
+
+            <div class="skills-porcentaje">
+                <h3 class="subtitulo1">Copywriting</h3>
+                <h3 class="subtitulo1">100%</h3>
+            </div>
+            <div class="lineas">
+                <div class="linea-rosa">
+                </div>
+                <div class="linea-gris3">
+                </div>
+            </div>
+
+            <br>
+
+            <div class="skills-porcentaje">
+                <h3 class="subtitulo1">Video Production</h3>
+                <h3 class="subtitulo1">75%</h3>
+            </div>
+            <div class="lineas">
+                <div class="linea-verde">
+                </div>
+                <div class="linea-gris4">
+                </div>
+            </div>
+
+
+
+            <br>
+
+        </article>
+
+
+    </section>
+
+
+
+
+
+        <script>
+            // $(".acordeon_titulo").click(function () {
+            //     $(".acordeon_contenido").slideToggle();
+            // });
+            $(".acordeon_titulo").click(function() {
+                var t = $(this);
+                var tp = t.next();
+                tp.slideToggle();
+
+                //$("#pregunta").toggleClass("cambiarColor")
+
+            });
+
+
+        </script>
+
+</body>
+</html>

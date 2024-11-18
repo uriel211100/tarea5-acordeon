@@ -1,0 +1,258 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:  Arial, Helvetica;
+    font-size: 16px;
+    color: #333;
+    line-height: 24px;
+}
+
+.ancho{
+    max-width: 1200px;
+    margin: auto;
+    /* border: 2px red solid; */
+}
+
+
+.contenido_todo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    /* flex-wrap: wrap; */
+}
+
+
+
+.contenido_acordeones{
+    font-family: "Poppins", serif;
+    width: 50%;
+    /* border: 2px blue solid; */
+    padding: 20px;
+    /* border: 2px blueviolet solid; */
+}
+
+.acordeon{
+    margin-bottom: 10px;
+    border-top: 1px #eeeeee solid;
+    max-width: 530px;
+    /* padding: 0px 40px; */
+    padding-left: 20px;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.acordeon4{
+    border-bottom: 1px #eeeeee solid;
+    padding-bottom: 20px;
+}
+
+.titulo1{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.acordeon_titulo{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 25px;
+
+    cursor: pointer;
+
+    /* color: #2937EF; */
+    /* border: 1px #dbdbdb solid; */
+}
+
+.acordeon_titulo h3{
+    font-weight: 400;
+    color: black;
+}
+
+
+.acordeon_titulo i{
+    font-size: 20px;
+    padding: 3px 0px;
+    color: #2937EF;
+}
+
+.acordeon_contenido{
+    font-weight: 200;
+    line-height: 26px;
+    /* border: 2px green solid; */
+    padding-left: 45px;
+
+    display: none;
+}
+
+.acordeon_contenido p{
+    margin-top: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contenido-skills{
+    width: 40%;
+    padding: 20px;
+    /* border: 2px green solid; */
+}
+
+.skills-porcentaje{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-bottom: 10px;
+}
+
+.lineas{
+    display: flex;
+    flex-direction: row;
+}
+
+.subtitulo1{
+    font-weight: 200;
+    font-size: 18px;
+}
+
+
+
+
+
+.linea-azul{
+    width: 90%;
+    background-color: #2937EF;
+    height: 2px;
+}
+
+.linea-gris{
+    width: 10%;
+    background-color: #eeeeee;
+    height: 2px;
+}
+
+
+
+
+.linea-amarilla{
+    width: 65%;
+    background-color: #E5C61A;
+    height: 2px;
+}
+
+.linea-gris2{
+    width: 35%;
+    background-color: #eeeeee;
+    height: 2px;
+}
+
+
+
+
+.linea-rosa{
+    width: 100%;
+    background-color: #ED4882;
+    height: 2px;
+}
+
+.linea-gris3{
+    width: 0%;
+    background-color: #eeeeee;
+    height: 2px;
+}
+
+
+
+
+.linea-verde{
+    width: 75%;
+    background-color: #2FC986;
+    height: 2px;
+}
+
+.linea-gris4{
+    width: 25%;
+    background-color: #eeeeee;
+    height: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 980px){
+    .contenido_todo{
+        /* max-width: 1200px; */
+        /* margin: auto; */
+        /* border: 2px red solid; */
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        /* flex-wrap: wrap; */
+    }
+
+    .contenido_acordeones{
+        width: 90%;
+        /* border: 2px orange solid; */
+        
+    }
+
+    .contenido-skills{
+        width: 90%;
+    }
+
+    .acordeon{
+        margin-bottom: 10px;
+        border-top: 1px #eeeeee solid;
+        max-width: 700px;
+        padding: 5px;
+        margin: auto;
+        /* padding: 0px 40px; */
+        /* padding-left: 20px;
+        padding-right: 40px;
+        padding-top: 15px;
+        padding-bottom: 10px; */
+    }
+    .titulo1{
+        line-height: 25px;
+        font-size: 22px;
+    }
+
+    .acordeon_titulo h3{
+        font-size: 15px;
+    }
+
+    .acordeon_contenido{
+        font-size: 14px;
+    }
+}
